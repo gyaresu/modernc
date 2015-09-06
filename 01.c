@@ -15,7 +15,7 @@ int main(void) {
 
   // Doing some work
   for (size_t i = 0; i < 5; ++i) {
-    printf("The size of i is: %lu\t", sizeof i);
+    printf("The size of i is: %lu\t", 2 * sizeof(i));
     printf("element %zu is %g, \tits square is %g\n",
       i,
       A[i],

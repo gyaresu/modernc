@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 all:
-	make 01
+	make 01 02
 
 clean:
-	rm -rf 01 01.dSYM
+	rm -rf 01 02 *.dSYM
