@@ -5,7 +5,7 @@
 #include <stdio.h> // Added this to define where printf comes from
 
 /* The main thing that this programme does. */
-int main() {
+int main(void) { // Changed to int from voic for return type
   // Declarations 
   int i;
   double A[5] = {
