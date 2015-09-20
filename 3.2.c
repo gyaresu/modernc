@@ -9,5 +9,6 @@ int main(void) {
             continue;
         }
         printf("i is: %lu\n", i);
+        printf("390MHz short is: %g\n", 390000000.0);
     }
 }
